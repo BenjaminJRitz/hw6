@@ -1,7 +1,7 @@
 #ifndef _MEDIAN_H_  // NOLINT
 #define _MEDIAN_H_  // NOLINT
 #include <vector>
-#include <algorithm>
+//#include <algorithm>
 #include <statistic.h>
 /* This class inherits from the Statistic class such that it  may be used
  * polymorphically.
