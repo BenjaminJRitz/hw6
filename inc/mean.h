@@ -1,13 +1,16 @@
+// Copyright 2019 <Benjamin Ritz>
+
 #ifndef _MEAN_H_  // NOLINT
 #define _MEAN_H_  // NOLINT
-#include <vector>
 #include <statistic.h>
+#include <vector>
+
 /* This class inherits from the Statistic class such that it may be used
  * polymorphically.
  */
 namespace csce240 {
-  class Mean : std::vector<double>, public Statistic {
-  public:
+class Mean : std::vector<double>, public Statistic {
+ public:
     /* Stores data (datum) such than an average may be calculated.
     * - NOTE: You do not necessarily need to store each datum.
     */
@@ -16,6 +19,6 @@ namespace csce240 {
     /* Returns the mean of the data (datum) from the Collect method.
     */
     double Calculate() const;
-  };
+};
 }  // namespace csce240
 #endif  // NOLINT

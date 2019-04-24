@@ -1,3 +1,5 @@
+// Copyright 2019 <Benjamin Ritz>
+
 #ifndef _STATISTIC_H_   // NOLINT
 #define _STATISTIC_H_   // NOLINT
 

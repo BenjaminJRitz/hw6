@@ -1,8 +1,10 @@
+// Copyright 2019 <Benjamin Ritz>
+
 #include <median.h>
 
 namespace csce240 {
     void Median::Collect(double datum) {
-       if(empty()) {
+       if (empty()) {
            push_back(datum);
        } else {
            for (size_t i = 0; i < size(); ++i) {
@@ -15,8 +17,6 @@ namespace csce240 {
                }
            }
        }
-
-
     }  // Ending bracket for metho collect
 
     double Median::Calculate() const {

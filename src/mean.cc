@@ -1,3 +1,4 @@
+// Copyright 2019 <Benjamin Ritz>
 #include <mean.h>
 
 namespace csce240 {
